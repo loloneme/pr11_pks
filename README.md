@@ -1,16 +1,36 @@
-# frontend
+# Практическая работа №11 по Программированию корпоративных систем
 
-A new Flutter project.
+## Мрясова Анастасия Александровна ЭФБО-01-22
 
-## Getting Started
+Суть практической работы заключалась в привязке авторизации Supabase.
 
-This project is a starting point for a Flutter application.
+## Supabase
 
-A few resources to get you started if this is your first Flutter project:
+Логика работы с Supabase описана в файле auth_service.dart. Там описаны методы получения email пользователя, входа, регистрации и выхода.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Взаимодействие с БД PostgreSQL еще не осуществлено, поэтому у каждого пользователя одинаковые данные в профиле, кроме email. 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Прототип
+
+Страницы входа и регистрации были созданы по прототипу Figma:
+![image](https://github.com/user-attachments/assets/c2a7dccb-8dfa-4aa7-afa4-9abfebdb9e89)
+
+## Клиентская часть
+
+Страницы входа и регистрации: 
+
+![Снимок экрана 2024-11-19 094332](https://github.com/user-attachments/assets/22f10081-e53c-42ff-8ccf-6a10a593a12e)
+![Снимок экрана 2024-11-19 094449](https://github.com/user-attachments/assets/daf20fba-3551-43db-ae69-305caa8ff171)
+
+Неавторизованный пользователь может просматривать напитки: 
+
+![Снимок экрана 2024-11-19 094340](https://github.com/user-attachments/assets/111e918d-3894-491b-b226-ae13fb7972dd)
+
+Страница профиля: 
+
+![Снимок экрана 2024-11-19 100123](https://github.com/user-attachments/assets/4b373376-1900-4835-a4a9-e1bf6cae7327)
+
+
+
+
+
